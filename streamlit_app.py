@@ -4,6 +4,8 @@ from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
 from cryptography.fernet import Fernet
 import time
+import pandas as pd
+import numpy as np
 
 # Fungsi Enkripsi dan Dekripsi
 def encrypt_aes(data, key):
